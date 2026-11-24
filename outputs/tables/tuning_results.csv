@@ -1,0 +1,8 @@
+model,cv_auc_mean,cv_auc_std,best_params
+Logistic Regression,0.9517366982995933,0.015826308739812042,"{""model__C"": 1.3311216080736887, ""model__class_weight"": ""balanced""}"
+Decision Tree,0.8420079314911805,0.036539309214726215,"{""model__class_weight"": null, ""model__criterion"": ""gini"", ""model__max_depth"": 12, ""model__min_samples_leaf"": 20}"
+K-Nearest Neighbours,0.8982745551961734,0.02155968190621305,"{""model__n_neighbors"": 34, ""model__p"": 2, ""model__weights"": ""distance""}"
+Random Forest,0.9168004088200042,0.0295029965074661,"{""model__class_weight"": ""balanced_subsample"", ""model__max_depth"": 6, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 3, ""model__n_estimators"": 270}"
+Extra Trees,0.8960556668363241,0.03405061463358896,"{""model__max_depth"": 15, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 724}"
+Gradient Boosting,0.946087032962823,0.012751999095828255,"{""model__learning_rate"": 0.08199282137790563, ""model__max_depth"": 2, ""model__min_samples_leaf"": 5, ""model__n_estimators"": 634, ""model__subsample"": 0.8626406981655035}"
+Hist Gradient Boosting,0.9463357044346298,0.01140206410279135,"{""model__l2_regularization"": 3.609993861334124, ""model__learning_rate"": 0.14139737926220505, ""model__max_iter"": 585, ""model__max_leaf_nodes"": 27, ""model__min_samples_leaf"": 37}"

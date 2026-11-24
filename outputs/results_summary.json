@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-11-24T13:28:33",
+  "dataset": "C:\\Users\\khanm\\OneDrive\\Desktop\\organic farming pbl\\data\\organic_farming_suitability.csv",
+  "rows": 1000,
+  "train_rows": 800,
+  "test_rows": 200,
+  "class_balance": {
+    "not_suitable": 57.7,
+    "suitable": 42.3
+  },
+  "selected_model": "Logistic Regression",
+  "selected_model_notes": "Linear, fully interpretable coefficients.",
+  "best_params": {
+    "model__C": 1.3311216080736887,
+    "model__class_weight": "balanced"
+  },
+  "cv_metrics": {
+    "roc_auc": 0.9505131892513342,
+    "f1": 0.8560211588470603,
+    "accuracy": 0.8768750000000001
+  },
+  "threshold": 0.465,
+  "test_metrics_default": {
+    "threshold": 0.5,
+    "accuracy": 0.85,
+    "balanced_accuracy": 0.852685421994885,
+    "precision": 0.7956989247311828,
+    "recall": 0.8705882352941177,
+    "f1": 0.8314606741573034,
+    "roc_auc": 0.9174424552429667,
+    "pr_auc": 0.900770840081668,
+    "mcc": 0.6991051869617955,
+    "brier": 0.11940958310879161
+  },
+  "test_metrics_tuned": {
+    "threshold": 0.465,
+    "accuracy": 0.845,
+    "balanced_accuracy": 0.8483375959079285,
+    "precision": 0.7872340425531915,
+    "recall": 0.8705882352941177,
+    "f1": 0.8268156424581006,
+    "roc_auc": 0.9174424552429667,
+    "pr_auc": 0.900770840081668,
+    "mcc": 0.6900361913915436,
+    "brier": 0.11940958310879161
+  },
+  "confidence_intervals": {
+    "accuracy": {
+      "low": 0.795,
+      "high": 0.895
+    },
+    "f1": {
+      "low": 0.762496905940594,
+      "high": 0.8835007902461053
+    },
+    "roc_auc": {
+      "low": 0.8746846747541586,
+      "high": 0.9505353773890679
+    }
+  },
+  "score_label_agreement": 0.999,
+  "features_used": [
+    "pH",
+    "Organic_Carbon_pct",
+    "Available_N_kg_ha",
+    "Available_P_kg_ha",
+    "Available_K_kg_ha",
+    "Available_S_mg_kg",
+    "Years_Chemical_Input",
+    "Previous_Fertilizer_Usage",
+    "Previous_Pesticide_Usage"
+  ],
+  "figures": {
+    "class_balance": "C:\\Users\\khanm\\OneDrive\\Desktop\\organic farming pbl\\outputs\\figures\\01_class_balance.png",
+    "feature_distributions": "C:\\Users\\khanm\\OneDrive\\Desktop\\organic farming pbl\\outputs\\figures\\02_feature_distributions.png",
+    "features_by_class": "C:\\Users\\khanm\\OneDrive\\Desktop\\organic farming pbl\\outputs\\figures\\03_features_by_class.png",
+    "correlation": "C:\\Users\\khanm\\OneDrive\\Desktop\\organic farming pbl\\outputs\\figures\\04_correlation_heatmap.png",
+    "suitability_rates": "C:\\Users\\khanm\\OneDrive\\Desktop\\organic farming pbl\\outputs\\figures\\05_suitability_rates.png"
+  },
+  "tuning": [
+    {
+      "model": "Logistic Regression",
+      "cv_auc_mean": 0.9517366982995933,
+      "cv_auc_std": 0.015826308739812042,
+      "best_params": "{\"model__C\": 1.3311216080736887, \"model__class_weight\": \"balanced\"}"
+    },
+    {
+      "model": "Decision Tree",
+      "cv_auc_mean": 0.8420079314911805,
+      "cv_auc_std": 0.036539309214726215,
+      "best_params": "{\"model__class_weight\": null, \"model__criterion\": \"gini\", \"model__max_depth\": 12, \"model__min_samples_leaf\": 20}"
+    },
+    {
+      "model": "K-Nearest Neighbours",
+      "cv_auc_mean": 0.8982745551961734,
+      "cv_auc_std": 0.02155968190621305,
+      "best_params": "{\"model__n_neighbors\": 34, \"model__p\": 2, \"model__weights\": \"distance\"}"
+    },
+    {
+      "model": "Random Forest",
+      "cv_auc_mean": 0.9168004088200042,
+      "cv_auc_std": 0.0295029965074661,
+      "best_params": "{\"model__class_weight\": \"balanced_subsample\", \"model__max_depth\": 6, \"model__max_features\": \"sqrt\", \"model__min_samples_leaf\": 3, \"model__n_estimators\": 270}"
+    },
+    {
+      "model": "Extra Trees",
+      "cv_auc_mean": 0.8960556668363241,
+      "cv_auc_std": 0.03405061463358896,
+      "best_params": "{\"model__max_depth\": 15, \"model__max_features\": \"sqrt\", \"model__min_samples_leaf\": 1, \"model__n_estimators\": 724}"
+    },
+    {
+      "model": "Gradient Boosting",
+      "cv_auc_mean": 0.946087032962823,
+      "cv_auc_std": 0.012751999095828255,
+      "best_params": "{\"model__learning_rate\": 0.08199282137790563, \"model__max_depth\": 2, \"model__min_samples_leaf\": 5, \"model__n_estimators\": 634, \"model__subsample\": 0.8626406981655035}"
+    },
+    {
+      "model": "Hist Gradient Boosting",
+      "cv_auc_mean": 0.9463357044346298,
+      "cv_auc_std": 0.01140206410279135,
+      "best_params": "{\"model__l2_regularization\": 3.609993861334124, \"model__learning_rate\": 0.14139737926220505, \"model__max_iter\": 585, \"model__max_leaf_nodes\": 27, \"model__min_samples_leaf\": 37}"
+    }
+  ]
+}

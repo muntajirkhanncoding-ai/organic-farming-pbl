@@ -1,0 +1,7 @@
+Field_ID,pH,Organic_Carbon_pct,Available_N_kg_ha,Available_P_kg_ha,Available_K_kg_ha,Available_S_mg_kg,Previous_Fertilizer_Usage,Previous_Pesticide_Usage,Years_Chemical_Input,probability_suitable,predicted_label,confidence,threshold_used,top_helping_factor,top_hurting_factor
+DEMO-01,6.9,1.4,420,45,500,22,Organic,Low,1,1.0,Suitable,High confidence,0.465,Organic carbon (%),-
+DEMO-02,7.4,0.9,320,35,300,18,Mixed,Moderate,3,0.9944,Suitable,High confidence,0.465,Organic carbon (%),-
+DEMO-03,6.4,0.7,260,22,230,13,Mixed,Moderate,5,0.0298,Not Suitable,High confidence,0.465,Previous fertilizer use,Soil pH
+DEMO-04,5.2,0.3,120,8,100,6,Chemical,High,12,0.0,Not Suitable,High confidence,0.465,-,Soil pH
+DEMO-05,8.6,0.6,240,20,220,12,Chemical,Moderate,8,0.0022,Not Suitable,High confidence,0.465,-,Soil pH
+DEMO-06,7.1,1.8,500,55,600,28,Organic,Low,2,1.0,Suitable,High confidence,0.465,Organic carbon (%),-

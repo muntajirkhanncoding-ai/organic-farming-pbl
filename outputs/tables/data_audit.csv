@@ -1,0 +1,25 @@
+column,dtype,missing,missing_pct,unique,most_common,min,median,max,mean
+Sample_ID,string,0,0.0,1000,OF-0001,,,,
+State,string,0,0.0,15,Madhya Pradesh,,,,
+Soil_Type,string,0,0.0,7,Alluvial,,,,
+Crop,string,0,0.0,12,Maize,,,,
+pH,float64,0,0.0,313,,4.8,6.925,9.19,6.916
+Organic_Carbon_pct,float64,0,0.0,639,,0.189,0.653,2.5,0.725
+Available_N_kg_ha,float64,0,0.0,844,,80.0,257.3,588.1,259.017
+Available_P_kg_ha,float64,0,0.0,456,,3.0,29.1,86.3,29.549
+Available_K_kg_ha,float64,0,0.0,856,,40.0,242.35,653.2,254.253
+Available_S_mg_kg,float64,0,0.0,783,,3.0,15.54,39.06,15.801
+Available_Zn_mg_kg,float64,0,0.0,158,,0.15,0.71,4.0,0.785
+Available_Fe_mg_kg,float64,0,0.0,854,,2.99,17.335,80.0,20.481
+Available_Mn_mg_kg,float64,0,0.0,719,,1.44,7.765,40.0,9.191
+Available_Cu_mg_kg,float64,0,0.0,165,,0.17,0.695,4.0,0.774
+Available_B_mg_kg,float64,0,0.0,161,,0.13,0.58,2.73,0.664
+EC_dS_m,float64,0,0.0,551,,0.05,0.357,1.926,0.416
+Annual_Rainfall_mm,float64,0,0.0,928,,180.0,928.9,2240.6,958.619
+Mean_Temperature_C,float64,0,0.0,158,,17.0,26.9,36.0,26.99
+Soil_Moisture_pct,float64,0,0.0,335,,8.0,28.4,55.0,28.409
+Previous_Fertilizer_Usage,string,0,0.0,3,Chemical,,,,
+Previous_Pesticide_Usage,string,0,0.0,3,Moderate,,,,
+Years_Chemical_Input,int64,0,0.0,16,,0.0,4.0,15.0,5.234
+Suitability_Score,float64,0,0.0,439,,4.5,52.75,89.3,52.279
+Organic_Farming_Suitability,string,0,0.0,2,Not Suitable,,,,

@@ -1,0 +1,7 @@
+Field_ID,pH,Organic_Carbon_pct,Available_N_kg_ha,Available_P_kg_ha,Available_K_kg_ha,Available_S_mg_kg,Previous_Fertilizer_Usage,Previous_Pesticide_Usage,Years_Chemical_Input
+DEMO-01,6.9,1.40,420,45,500,22,Organic,Low,1
+DEMO-02,7.4,0.90,320,35,300,18,Mixed,Moderate,3
+DEMO-03,6.95,0.482,367.1,42.5,79.2,17.36,Chemical,Low,9
+DEMO-04,5.2,0.30,120,8,100,6,Chemical,High,12
+DEMO-05,8.6,0.60,240,20,220,12,Chemical,Moderate,8
+DEMO-06,7.1,1.80,500,55,600,28,Organic,Low,2

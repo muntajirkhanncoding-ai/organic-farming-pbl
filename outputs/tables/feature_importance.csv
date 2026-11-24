@@ -1,0 +1,10 @@
+feature,importance_mean,importance_std
+Organic_Carbon_pct,0.18071,0.02637
+pH,0.10982,0.0171
+Available_N_kg_ha,0.04035,0.01015
+Available_K_kg_ha,0.03426,0.00735
+Available_P_kg_ha,0.03128,0.01084
+Previous_Fertilizer_Usage,0.03005,0.0085
+Previous_Pesticide_Usage,0.01769,0.00728
+Available_S_mg_kg,0.01103,0.00555
+Years_Chemical_Input,-0.00062,0.001

@@ -1,0 +1,2 @@
+Not Suitable_precision,Not Suitable_recall,Not Suitable_f1-score,Not Suitable_support,Suitable_precision,Suitable_recall,Suitable_f1-score,Suitable_support,accuracy,macro avg_precision,macro avg_recall,macro avg_f1-score,macro avg_support,weighted avg_precision,weighted avg_recall,weighted avg_f1-score,weighted avg_support
+0.8962,0.8261,0.8597,115.0,0.7872,0.8706,0.8268,85.0,0.845,0.8417,0.8483,0.8433,200.0,0.8499,0.845,0.8457,200.0

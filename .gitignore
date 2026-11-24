@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local scratch files
+train_fast.log
+smoke.py
+lr_test.py
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Word temporary files
+~$*.docx
