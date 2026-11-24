@@ -148,7 +148,7 @@ pytest -q
 
 ## 👨‍💻 Author
 
-**Md Sharik**  
+**Muntajir Raza Khan**  
 BCA 5th Semester, PBL Project  
 Guided by Dr. Sreekumar Biswas (Asst. Prof. of ML)
 
